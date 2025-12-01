@@ -1,0 +1,19 @@
+program: analisis_recognition.py
+method: grid
+parameters:
+  sweep:
+    values: [1]
+  facedetection_model:
+    values: [mediapipe,yolov8face,faceboxes_tensorrt,faceboxes_tensorrt_INT8,faceboxes_torch,faceboxes_tensorflow_cpu,faceboxes_tensorflow_gpu,faceboxes_onnx]
+  facedetection_use:
+    values: [1]
+  camera_src:
+    values: [../../Data/videos/video_original_normal.avi,../../Data/videos/video_original_light.avi,../../Data/videos/video_original_light.avi,../../Data/videos/video_jetson_b01.avi,../../Data/videos/video_movimiento.avi,../../Data/videos/video_movimiento_2.avi]
+  device:
+    values: [jetson_b01]
+  exp_name:
+    values: [face_detection_analisis]
+  video_total_save:
+    values: [1]
+  use_wandb:
+    values: [1]
