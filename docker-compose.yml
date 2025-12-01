@@ -1,0 +1,11 @@
+version: '3'
+services:
+  face_detection_model:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./Src:/app/Src
+      - ./Codes:/app/Codes
+    environment:
+      - TZ=America/Lima

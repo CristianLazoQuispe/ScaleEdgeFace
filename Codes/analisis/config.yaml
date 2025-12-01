@@ -1,0 +1,33 @@
+program: analisis_recognition.py
+method: grid
+parameters:
+  sweep:
+    values: [1]
+  facedetection_model:
+    values: [mediapipe]
+  facedetection_use:
+    values: [1]
+  tracking_model:
+    values: [Norfair]
+  tracking_use:
+    values: [0]
+
+  facerecognition_model:
+    values: [face_recognition]
+  facerecognition_use:
+    values: [0]
+
+  fps_save:
+    values: [1]
+
+  camera_src:
+    values: [../../Data/videos/video_original_normal.avi]
+
+  device:
+    values: [jetson_b01]
+  exp_name:
+    values: [face_detection_analisis]
+  video_total_save:
+    values: [1]
+  use_wandb:
+    values: [1]
