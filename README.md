@@ -1,4 +1,4 @@
-# ⚡ ScaleEdgeFace: Real-Time Face Recognition Framework
+# ⚡ ScaleEdgeFace: Real-Time Face Tracking and Vector Databases for Scalable Face Recognition
 
 **Cristian Lazo-Quispe**, Ricardo R. Rodríguez-Bustinza, Renato Castro-Cruz  
 *National University of Engineering · Pontifical Catholic University of Peru*  
